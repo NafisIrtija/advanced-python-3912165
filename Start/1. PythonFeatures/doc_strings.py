@@ -3,6 +3,12 @@
 
 
 def myFunction(arg1, arg2=None):
+    """This function takes two args, doesn't do anything
+
+    Parameters:
+    arg1: the first arg, do what you want
+    arg2: the second one, do what you want
+    """
     print(arg1, arg2)
 
 
