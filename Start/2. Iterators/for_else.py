@@ -9,9 +9,9 @@ def findname(target):
         if name == target:
             print("Name found");
             return True
-    
-    print("Name not found")
-    return False
+    else:
+        print("Name not found")
+        return False
 
 print(findname("Creed"))
 print(findname("Tom"))
